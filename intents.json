@@ -1,0 +1,362 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", 
+        "Hello", 
+        "Good morning", 
+        "Good evening", 
+        "Hey"],
+
+      "responses": ["Hello! How can I help you with your education today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", 
+      "See you later", 
+      "Goodbye"],
+      "responses": ["Goodbye! Wishing you the best in your studies."]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Any time!"]
+    },
+    {
+      "tag": "after_al_courses",
+      "patterns": [
+        "What are the available courses after A/L?",
+        "Tell me about courses after A/L",
+        "I finished A/Ls, what can I study?"
+      ],
+      "responses": [
+        "You can choose from various courses such as IT, Management, Engineering, Medicine, Arts, and more."
+      ]
+    },
+    {
+      "tag": "it_courses",
+      "patterns": [
+        "Tell me about IT courses",
+        "What IT programs do you have?",
+        "I want to study Information Technology"
+      ],
+      "responses": [
+        "We offer IT diplomas, software engineering, computer science, and networking courses."
+      ]
+    },
+    {
+      "tag": "engineering_courses",
+      "patterns": [
+        "What engineering courses can I take?",
+        "Do you have civil engineering?",
+        "Tell me about electrical engineering programs"
+      ],
+      "responses": [
+        "Yes! You can study Civil, Electrical, Mechanical, Software, and Electronic Engineering."
+      ]
+    },
+    {
+      "tag": "medical_courses",
+      "patterns": [
+        "I want to become a doctor",
+        "How to study medicine?",
+        "What are the medical courses?"
+      ],
+      "responses": [
+        "To study medicine, you should follow the Biology stream. Options include MBBS, Nursing, Pharmacy, and more."
+      ]
+    },
+    {
+      "tag": "arts_courses",
+      "patterns": [
+        "What are the Arts stream options?",
+        "Can I study languages or history?",
+        "Arts degrees available?"
+      ],
+      "responses": [
+        "Arts stream includes degrees like Sociology, Political Science, History, Languages, and Psychology."
+      ]
+    },
+    {
+      "tag": "commerce_courses",
+      "patterns": [
+        "Tell me about commerce degrees",
+        "I studied commerce. What next?",
+        "Can I do accounting?"
+      ],
+      "responses": [
+        "You can study Accounting, Business Management, Marketing, Banking and Finance, and HRM."
+      ]
+    },
+    {
+      "tag": "diploma_options",
+      "patterns": [
+        "Can I do a diploma?",
+        "Diploma without A/L?",
+        "Short courses available?"
+      ],
+      "responses": [
+        "Yes! We offer diplomas in IT, Management, English, Graphic Design, and more."
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "Can I study abroad?",
+        "What countries can I study in?",
+        "Foreign university options?"
+      ],
+      "responses": [
+        "Yes, you can apply to universities in UK, Canada, Australia, and more. IELTS may be required."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there any scholarships?",
+        "Can I study for free?",
+        "How can I get a scholarship?"
+      ],
+      "responses": [
+        "We provide merit-based and need-based scholarships for selected programs."
+      ]
+    },
+    {
+      "tag": "university_list",
+      "patterns": [
+        "What universities are in Sri Lanka?",
+        "Name state universities",
+        "Where can I study?"
+      ],
+      "responses": [
+        "Top universities include University of Colombo, Moratuwa, Peradeniya, Ruhuna, Kelaniya, and J'pura."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "Can I speak to an advisor?",
+        "Do you have a contact number?",
+        "I want to talk to someone"
+      ],
+      "responses": [
+        "You can call us at 076-3499289 or email mandaramalindu@gmail.com for help."
+      ]
+    },
+     {
+      "tag": "medicine_path",
+      "patterns": [
+        "How to study medicine?",
+        "Z-score for medical university?",
+        "Medical course options?"
+      ],
+      "responses": [
+        "To study medicine in Sri Lanka, you usually need a Biology stream and a Z-score above 1.8. State universities include Colombo, Ruhuna, and Peradeniya. Private options: KDU, SAITM."
+      ]
+    },
+    {
+      "tag": "law_path",
+      "patterns": [
+        "How can I study law?",
+        "Best law universities?",
+        "Law degrees in Sri Lanka"
+      ],
+      "responses": [
+        "You can study Law at Colombo, J'pura and Open University. Entry requires a good Z-score in Arts. Private law diplomas available at CFPS, ICBT."
+      ]
+    },
+    {
+      "tag": "management_path",
+      "patterns": [
+        "I want to study Management",
+        "Commerce to Management",
+        "Management degree options"
+      ],
+      "responses": [
+        "Management is offered at J'pura, Kelaniya, and Peradeniya. Commerce stream preferred. Private options: NIBM, NSBM, SLIIT."
+      ]
+    },
+    {
+      "tag": "accounting_path",
+      "patterns": [
+        "Can I study accounting?",
+        "Best accounting courses",
+        "Where to learn accounting?"
+      ],
+      "responses": [
+        "Accountancy degrees are at J'pura and Kelaniya. You can also follow CA Sri Lanka, ACCA, or private degrees at NSBM, Horizon."
+      ]
+    },
+    {
+      "tag": "arts_humanities_path",
+      "patterns": [
+        "Can I do Arts?",
+        "What to do after Arts stream?",
+        "Best Arts degrees?"
+      ],
+      "responses": [
+        "Arts degrees include Sociology, Languages, Psychology. Offered at Kelaniya, Peradeniya. Entry via Arts stream."
+      ]
+    },
+    {
+      "tag": "computer_science_path",
+      "patterns": [
+        "Computer Science after A/L?",
+        "Can I learn CS?",
+        "Where to study computer science?"
+      ],
+      "responses": [
+        "CS is offered at Colombo, Moratuwa, and Uva Wellassa. Private options: NSBM, IIT, SLIIT. Maths stream recommended."
+      ]
+    },
+    {
+      "tag": "data_science_path",
+      "patterns": [
+        "I want to study Data Science",
+        "Data analytics degrees",
+        "Where to study AI or Data Science?"
+      ],
+      "responses": [
+        "Data Science is available at Uva Wellassa, Colombo. Private: NSBM, IIT, and NIBM. Entry: Maths/Science stream."
+      ]
+    },
+    {
+      "tag": "engineering_fields",
+      "patterns": [
+        "Best engineering degrees",
+        "What are civil and mechanical engineering?",
+        "Where to study engineering?"
+      ],
+      "responses": [
+        "Engineering degrees (Civil, Mechanical, Electrical) are at Moratuwa, Ruhuna, Peradeniya. Z-score needed: above 1.4. Private: SLIIT, CINEC, IIT."
+      ]
+    },
+    {
+      "tag": "nursing_pharmacy_path",
+      "patterns": [
+        "Nursing courses in Sri Lanka",
+        "How to become a pharmacist?",
+        "Nursing degrees"
+      ],
+      "responses": [
+        "Nursing and Pharmacy are offered at Colombo, Rajarata. Z-score for Biology stream. Private: ICBT, ESOFT Metro."
+      ]
+    },
+    {
+      "tag": "teaching_education_path",
+      "patterns": [
+        "How to become a teacher?",
+        "Teaching diploma",
+        "Education degrees in Sri Lanka"
+      ],
+      "responses": [
+        "You can study Education at NIE, Open University, or university faculties. Entry: any stream + good A/Ls."
+      ]
+    },
+    {
+      "tag": "campus_by_town",
+      "patterns": [
+        "Campuses in Kurunegala",
+        "Any universities in Badulla?",
+        "Study options in Jaffna",
+        "Colombo private colleges"
+      ],
+      "responses": [
+        "Kurunegala: IDM, ESOFT. Badulla: Sussex, IDM. Jaffna: Vavuniya Campus, IDM. Colombo: NSBM, SLIIT, IIT."
+      ]
+    },
+    {
+      "tag": "all_city_campuses",
+      "patterns": [
+        "List all campuses in Sri Lanka",
+        "Private universities by town",
+        "Where can I study in Trincomalee?"
+      ],
+      "responses": [
+        "Major towns with campuses: Colombo, Galle, Kandy, Kurunegala, Jaffna, Matara, Badulla, Ratnapura, Kalutara, Trincomalee, Batticaloa. Institutes vary by location."
+      ]
+    },
+    {
+      "tag": "software_engineering_details",
+      "patterns": [
+        "Tell me about software engineering",
+        "Can I study software engineering?",
+        "What is required to become a software engineer?"
+      ],
+      "responses": [
+        "Software Engineering is offered at universities like Moratuwa and Ruhuna. You usually need a high Z-score from Maths or Physical Science stream. Private options include NSBM, IIT, SLIIT and ESOFT."
+      ]
+    },
+    {
+      "tag": "zscore_requirement",
+      "patterns": [
+        "What is the Z-score needed for medicine?",
+        "Minimum Z score for Moratuwa engineering?",
+        "Z-score for university admission"
+      ],
+      "responses": [
+        "The required Z-score varies by year and district. For Medicine it's generally above 1.8; for Engineering above 1.4. Please check www.ugc.ac.lk for exact values."
+      ]
+    },
+    {
+      "tag": "private_universities_by_city",
+      "patterns": [
+        "Private universities in Colombo",
+        "What can I study in Kandy privately?",
+        "Best institutes in Galle",
+        "Private universities in Jaffna",
+        "Any campus in Kurunegala?",
+        "Best private colleges in Matara?"
+      ],
+      "responses": [
+        "In Colombo: SLIIT, NSBM, NIBM, ICBT, ESOFT. In Kandy: ESOFT, Horizon Campus. In Galle: ESOFT, IDM. In Jaffna: IDM, ESOFT. In Kurunegala: Sussex, IDM. In Matara: ESOFT, IDM. Availability depends on the institute and program."
+      ]
+    },
+    {
+      "tag": "overseas_contact",
+      "patterns": [
+        "How can I apply for foreign universities?",
+        "Can you help me with studying abroad?",
+        "Whom to contact for overseas education?"
+      ],
+      "responses": [
+        "You can contact us at 076-3499289 or email mandaramalindu@gmail.com. Visit www.studyabroad.gov.lk for detailed info."
+      ]
+    },
+    {
+      "tag": "ol_related_courses",
+      "patterns": [
+        "What can I do after O/L?",
+        "Are there diploma courses after O/L?",
+        "Study options without A/L?"
+      ],
+      "responses": [
+        "Yes, after O/L you can study diploma programs in IT, English, Graphic Design and more at institutes like VTA, NAITA, and private colleges."
+      ]
+    },
+    {
+      "tag": "grade5_scholarship",
+      "patterns": [
+        "What is the Grade 5 scholarship exam?",
+        "How can I prepare for 5 wasara shishyathwa?",
+        "Scholarship for grade 5 students"
+      ],
+      "responses": [
+        "Grade 5 scholarship exam is for students in Sri Lanka to enter popular national schools. Materials are on www.doenets.lk."
+      ]
+    },
+    {
+      "tag": "education_websites",
+      "patterns": [
+        "Best websites for education in Sri Lanka",
+        "Where can I get accurate study info?",
+        "UGC website?"
+      ],
+      "responses": [
+        "Visit www.ugc.ac.lk (gov universities), www.tvec.gov.lk (vocational), www.doenets.lk (exams), and www.studyabroad.gov.lk (foreign study)."
+      ]
+    }
+  ]
+}

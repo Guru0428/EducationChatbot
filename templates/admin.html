@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0047ab;
+      color: white;
+      font-size: 1.1rem;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      table, th, td {
+        font-size: 0.9rem;
+      }
+
+      textarea {
+        height: 60px;
+      }
+
+      button {
+        font-size: 0.85rem;
+        padding: 8px 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>📋 Admin Dashboard</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Question</th>
+    <th>Answer</th>
+  </tr>
+  
+  <tr>
+    <td>{{ id }}</td>
+    <td>{{ question }}</td>
+    <td>
+      <form action="/admin/answer" method="post">
+        <input type="hidden" name="id" value="{{ id }}">
+        <textarea name="answer" placeholder="Enter answer...">{{ answer or "" }}</textarea>
+        <button type="submit">Save</button>
+      </form>
+    </td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
